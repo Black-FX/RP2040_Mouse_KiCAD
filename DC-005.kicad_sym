@@ -1,0 +1,122 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "DC-005" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -5.09433 5.5976 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "DC-005" (id 1) (at -5.0995 -7.63981 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "NINIGI_DC-005" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "Conn Dc Power Jack 2.1mm" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Best Inc." (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "AVAILABILITY" "Unavailable" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PRICE" "None" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "DC-005" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "DC-005_0_0"
+      (arc (start -3.175 3.81) (mid -4.445 2.54) (end -3.175 1.27)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -3.175 3.81) (xy 1.27 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 3.81) (xy 1.27 1.27)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 1.27) (xy -3.175 1.27)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 1.27) (xy 1.27 0.635)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 0.635) (xy 2.54 0.635)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.635) (xy 2.54 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 2.54) (xy 2.54 4.445)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 4.445) (xy 1.27 4.445)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 4.445) (xy 1.27 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy -0.635 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.635 -2.54) (xy -1.27 -1.27)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.27 -1.27) (xy -1.905 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 2.54 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -2.54)
+          (xy 2.032 -1.27)
+          (xy 3.048 -1.27)
+          (xy 2.54 -2.54)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 2.54 2.54) (xy 5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 5.08 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (rectangle (start -5.08 -5.08) (end 5.08 5.08)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin passive line (at 10.16 2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
