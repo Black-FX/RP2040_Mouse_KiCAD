@@ -436,7 +436,7 @@
       (net 2 "GND") (pinfunction "S1") (pintype "passive") (tstamp 8bb10b5f-9f4f-4fad-9df0-64dbcbebccc2))
     (pad "S2" thru_hole circle (at 12.495 0 270) (size 4.116 4.116) (drill 3.1) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "S2") (pintype "passive") (tstamp d484857b-3b64-42f1-b7e0-350be96a6d14))
-    (model "${KIPRJMOD}/CONN_A-DF09AKG-T2S_ASM.step"
+    (model "${KIPRJMOD}/3d_models/CONN_A-DF09AKG-T2S_ASM.step"
       (offset (xyz 0 -10.8 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -180))
@@ -499,7 +499,7 @@
       (net 5 "Pin1") (pinfunction "B") (pintype "passive") (tstamp d2b2e668-1bf0-4b3b-b476-a3c8b0c8aa6e))
     (pad "6" smd rect (at 2.46 3.03 90) (size 1 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 17 "XB_5") (pinfunction "C") (pintype "passive") (tstamp c0f9d305-3ca0-42f9-9a2b-f6435e7caefd))
-    (model "${KIPRJMOD}/JS202011JCQN--3DModel-STEP-1.STEP"
+    (model "${KIPRJMOD}/3d_models/JS202011JCQN--3DModel-STEP-1.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -593,7 +593,7 @@
       (net 37 "/XOUT_LTD") (pinfunction "1") (pintype "passive") (tstamp 1d84f50e-adcf-4480-8d5e-f63d01804826))
     (pad "2" smd rect (at 1.85 0 90) (size 2 2.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 36 "/XIN") (pinfunction "2") (pintype "passive") (tstamp db9cd6e1-62d4-432f-afeb-76a1a859f13a))
-    (model "${KIPRJMOD}/xtal2_CX5032GB_AVX.step"
+    (model "${KIPRJMOD}/3d_models/xtal2_CX5032GB_AVX.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -679,7 +679,7 @@
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp b380a754-32a5-477d-9eed-ab872833df3c))
     (pad "2" smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 42 "/P_LED_L") (pinfunction "A") (pintype "passive") (tstamp 0ccf86d7-c82d-434c-8c66-aeebe805fced))
-    (model "${KIPRJMOD}/LED-0805-Red.step"
+    (model "${KIPRJMOD}/3d_models/LED-0805-Red.step"
       (offset (xyz 0 0 0))
       (scale (xyz 0.7 1 1))
       (rotate (xyz 0 0 -90))
@@ -1034,7 +1034,7 @@
       (net 3 "+3V3") (pinfunction "VO") (pintype "power_out") (tstamp c5b15dc6-8152-4141-b88c-cd0db8703309))
     (pad "3" smd rect (at -3.15 2.3 180) (size 2 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "+5V") (pinfunction "VI") (pintype "power_in") (tstamp a583adfc-f273-4f4f-8d51-ea9eb64e1f30))
-    (model "${KIPRJMOD}/AMS1117_5V_axisZ.step"
+    (model "${KIPRJMOD}/3d_models/AMS1117_5V_axisZ.step"
       (offset (xyz 0 0 0.8))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1244,7 +1244,7 @@
       (net 2 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 7cad80e9-c851-4f5b-a11f-00d0fe207eb2))
     (pad "5" smd rect (at -6.9 7.8) (size 4.5 2.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "Shield") (pintype "passive") (tstamp f910b9bd-0da8-4838-8763-32b4923f111e))
-    (model "${KIPRJMOD}/USB-A-S-F-B-SM2-TR.stp"
+    (model "${KIPRJMOD}/3d_models/USB-A-S-F-B-SM2-TR.stp"
       (offset (xyz -2 0 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -1720,7 +1720,7 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp d96adbc1-9e3a-4bc5-bbb2-df42cc9724f7))
     (pad "57" thru_hole circle (at -0.95 -0.95 270) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp ee0aed39-2e12-4510-9e71-2f2a87e759eb))
-    (model "${KIPRJMOD}/RP2040_QFN_PACKAGE.STEP"
+    (model "${KIPRJMOD}/3d_models/RP2040_QFN_PACKAGE.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1.25 1.25 1.25))
       (rotate (xyz 0 0 0))
@@ -1807,7 +1807,7 @@
       (net 43 "/M_LED") (pinfunction "K") (pintype "passive") (tstamp ec2e099f-5c46-4354-bb88-07e060fbccb3))
     (pad "2" smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 44 "/M_LED_L") (pinfunction "A") (pintype "passive") (tstamp 2aaf0f92-42e9-4c97-be60-af58f0ba1b6a))
-    (model "${KIPRJMOD}/LED-0805-Blue.step"
+    (model "${KIPRJMOD}/3d_models/LED-0805-Blue.step"
       (offset (xyz 0 0 0))
       (scale (xyz 0.7 1 1))
       (rotate (xyz 0 0 90))
@@ -1944,7 +1944,7 @@
       (net 1 "+5V") (pintype "passive") (tstamp 0cbe15e3-2ac4-4d6c-bcdb-beeccde7717a))
     (pad "4" thru_hole oval (at 2.5 0 180) (size 2 4) (drill oval 0.8 3) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp 6bc92cf8-87b9-48b6-9d1d-ec24ffc0453d))
-    (model "${KIPRJMOD}/DC-005.step"
+    (model "${KIPRJMOD}/3d_models/DC-005.STEP"
       (offset (xyz -4 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
