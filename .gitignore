@@ -1,2 +1,4 @@
 gerbers/*
 *-backups
+*.ods
+*.xls
