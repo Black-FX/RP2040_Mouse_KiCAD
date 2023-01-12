@@ -3310,7 +3310,7 @@
     (property "Value" "R_Pack04" (id 1) (at 248.92 58.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 250.825 57.15 90)
+    (property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402" (id 2) (at 250.825 57.15 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 243.84 57.15 0)
