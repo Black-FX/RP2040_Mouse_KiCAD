@@ -17,7 +17,7 @@ You can order the boards here:
 
 I sell pre-assembled and programmed ones here:
 
-[Tindie](https://www.tindie.com/products/darrens_lab/rp2040-usb-to-quadrature-mouse-adapter/)
+[Tindie](https://www.tindie.com/products/darrens_lab/rp2040-usb-to-quadrature-mouse-adaptor/)
 
 [EBay](https://www.ebay.com/usr/darrens_lab_nz?_trksid=p2047675.m145687.l151929)
 
