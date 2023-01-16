@@ -1,4 +1,4 @@
-20810514006405920
+20817208165740167
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58282,6 +58282,13 @@ QFN DFN_QFN
 70
 57
 Library
+SOP65P640X120-20N
+
+
+0
+20
+20
+Library
 USB_A_China
 USB type A Plug, Horizontal, http://cnctech.us/pdfs/1001-011-01101.pdf
 USB-A
@@ -60843,6 +60850,27 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+My Libs
+dl_logo
+
+
+0
+0
+0
+My Libs
+dl_logo_medium
+
+
+0
+0
+0
+My Libs
+dl_logo_small
+
+
+0
+0
+0
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads

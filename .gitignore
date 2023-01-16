@@ -3,3 +3,4 @@ gerbers/*
 *.ods
 *.xls
 *.~*
+*.csv
