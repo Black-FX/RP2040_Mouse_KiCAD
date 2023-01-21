@@ -4,3 +4,4 @@ gerbers/*
 *.xls
 *.~*
 *.csv
+fp-info-cache
