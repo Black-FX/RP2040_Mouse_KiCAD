@@ -6,8 +6,8 @@
 
   (title_block
     (title "RP2040 USB to Quadrature Mouse Adaptor")
-    (date "2023-01-14")
-    (rev "4")
+    (date "2023-01-21")
+    (rev "5")
     (company "Darrens Lab")
   )
 
@@ -4081,7 +4081,7 @@
     (property "Value" "Q_NPN_BEC" (id 1) (at 111.7599 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70" (id 2) (at 107.95 182.88 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (id 2) (at 107.95 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 110.49 187.96 0)
@@ -4349,7 +4349,7 @@
     (property "Value" "RP2040" (id 1) (at 192.5194 144.6246 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.3x4.3mm_ThermalVias" (id 2) (at 171.45 91.44 0)
+    (property "Footprint" "Library:RP2040-QFN-56" (id 2) (at 171.45 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 171.45 91.44 0)
@@ -4613,7 +4613,7 @@
       (reference "JP1") (unit 1) (value "USB_Boot") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical")
     )
     (path "/bb162b96-fbc5-4aa7-9f23-bc3be2dff577"
-      (reference "Q1") (unit 1) (value "Q_NPN_BEC") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
+      (reference "Q1") (unit 1) (value "Q_NPN_BEC") (footprint "Package_TO_SOT_SMD:SOT-23-3")
     )
     (path "/053edd54-4904-42bd-8bde-773af7b0640e"
       (reference "R1") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4676,7 +4676,7 @@
       (reference "U1") (unit 1) (value "LSF0108PWR") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
     )
     (path "/f6832cc7-2a01-498f-b0bd-c34fbd7551b8"
-      (reference "U2") (unit 1) (value "RP2040") (footprint "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.3x4.3mm_ThermalVias")
+      (reference "U2") (unit 1) (value "RP2040") (footprint "Library:RP2040-QFN-56")
     )
     (path "/15cfbf4f-b005-4451-a70b-02ee25c9d0a5"
       (reference "U3") (unit 1) (value "AT25SF081B-SSHD-T") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm")
