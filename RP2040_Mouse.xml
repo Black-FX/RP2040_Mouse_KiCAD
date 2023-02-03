@@ -1,16 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/darren/OneDrive/Documents/GitHub/RP2040_Mouse/RP2040_Mouse_KiCAD/RP2040_Mouse.kicad_sch</source>
-    <date>Sat 14 Jan 2023 15:35:04</date>
-    <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1</tool>
+    <source>/home/darren/creations/eda/RP2040_Mouse_KiCAD/RP2040_Mouse.kicad_sch</source>
+    <date>Mon 30 Jan 2023 19:51:02</date>
+    <tool>Eeschema 7.0.0-rc2-unknown-5beb79bbdc~164~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>RP2040 USB to Quadrature Mouse Adaptor</title>
         <company>Darrens Lab</company>
-        <rev>4</rev>
-        <date>2023-01-14</date>
+        <rev>5</rev>
+        <date>2023-01-21</date>
         <source>RP2040_Mouse.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/">
+      <title_block>
+        <title>RP2040 USB to Quadrature Mouse Adaptor</title>
+        <company>Darrens Lab</company>
+        <rev>5</rev>
+        <date>2023-01-21</date>
+        <source>MCU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Logic Level Shift/" tstamps="/306a242a-bc63-4ebb-b02e-24e0b2bcb491/">
+      <title_block>
+        <title>RP2040 USB to Quadrature Mouse Adaptor</title>
+        <company>Darrens Lab</company>
+        <rev>5</rev>
+        <date>2023-01-21</date>
+        <source>logic_level.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Ports/" tstamps="/220c1c16-08d3-4083-9bc2-be5d20d89579/">
+      <title_block>
+        <title>RP2040 USB to Quadrature Mouse Adaptor</title>
+        <company>Darrens Lab</company>
+        <rev>5</rev>
+        <date>2023-01-21</date>
+        <source>ports.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Indication/" tstamps="/7d421013-077a-412e-98c5-c4445e132e81/">
+      <title_block>
+        <title>RP2040 USB to Quadrature Mouse Adaptor</title>
+        <company>Darrens Lab</company>
+        <rev>5</rev>
+        <date>2023-01-21</date>
+        <source>indication.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Power/" tstamps="/689da89e-dfdd-4f8c-b9bf-6f48bed5f965/">
+      <title_block>
+        <title>RP2040 USB to Quadrature Mouse Adaptor</title>
+        <company>Darrens Lab</company>
+        <rev>5</rev>
+        <date>2023-01-21</date>
+        <source>power.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -24,103 +114,82 @@
     </sheet>
   </design>
   <components>
-    <comp ref="C1">
-      <value>10u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <fields>
-        <field name="Part">TCJN106M006R0500E</field>
-      </fields>
-      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="Part" value="TCJN106M006R0500E"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>762bfacb-6138-4810-9bc4-199950da7f8c</tstamps>
-    </comp>
-    <comp ref="C2">
-      <value>10u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <fields>
-        <field name="Part">TCJN106M006R0500E</field>
-      </fields>
-      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="Part" value="TCJN106M006R0500E"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ad9fc546-829f-43b3-b3e9-b31bb0db612e</tstamps>
-    </comp>
-    <comp ref="C3">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>723d44d7-5652-40cc-a713-25ef9fcfda0e</tstamps>
-    </comp>
     <comp ref="C4">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b9b45059-7753-42ef-9aa7-d800cefdbc56</tstamps>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>b9c6be35-05f5-427c-9d96-cb0a8afc2d91</tstamps>
     </comp>
     <comp ref="C5">
       <value>30p</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>71186b02-bdb6-48fb-814c-d837c8b73ce2</tstamps>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>cf6e9362-a56b-4c05-b282-5dc2946e6d72</tstamps>
     </comp>
     <comp ref="C6">
       <value>30p</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>792bf3e4-1834-4fed-8829-7aa796aba485</tstamps>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>20460555-0cf3-4a6d-99d3-8a47a7dcb314</tstamps>
     </comp>
     <comp ref="C7">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>4611c108-a777-42d0-bb51-dc6acc3b76da</tstamps>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>94a88203-878b-439b-b4ca-1f2f821aca80</tstamps>
     </comp>
     <comp ref="C8">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>aa78aafd-a937-4c3e-9ae7-a81a0b6554d8</tstamps>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>5e23b3c4-5d6a-4030-a06c-06acad89c3af</tstamps>
     </comp>
     <comp ref="C9">
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d90890e9-d81b-40ee-9cbb-f0a53eb89a73</tstamps>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>b073a480-bfdb-41ca-9ad3-4ecad7d64b69</tstamps>
     </comp>
     <comp ref="C10">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>cc243981-3860-42bf-8dae-09a0aeecea5d</tstamps>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>810c9eb3-2c5f-468c-94b0-c0869e714249</tstamps>
     </comp>
     <comp ref="C11">
       <value>1u</value>
@@ -130,47 +199,371 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Part" value="CM05X7S105M04AH-HE"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c6f64649-2d83-43ed-a7a5-255c94b1c644</tstamps>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>9ba2c412-9a17-40e8-ad36-40329e70ae59</tstamps>
     </comp>
     <comp ref="C12">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c3ae483c-1612-43c4-8d0f-fb2fdf3af163</tstamps>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>c495f51b-ffed-4370-bb7d-4bd0279bbb6c</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>USB_Boot</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>643b7dc0-5d90-40d2-a62f-9ae5152e915b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>02656b34-f40e-4a8e-8a5b-425f42c1ba83</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>49055e77-a780-49ae-8cb3-026cc5b3889f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>4d91f825-8a15-40e5-a1bd-722833b2b263</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>a9e44eee-0035-4e24-af62-8c8619b6bf02</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>91748adc-d1d5-4d24-9360-4bca4049ee6c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>9a8704c0-13a5-432e-882e-8a5fa17531ee</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>10038944-c602-4d38-8692-690035b42201</tstamps>
+    </comp>
+    <comp ref="RN1">
+      <value>R_Pack04</value>
+      <footprint>Resistor_SMD:R_Array_Concave_4x0402</footprint>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="4 resistor network, parallel topology"/>
+      <property name="ki_keywords" value="R network parallel topology isolated"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>b2b79621-4a43-4c13-a436-c34f00f24886</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>SWD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>52b244ea-f3ed-4289-9149-2bbf43b88094</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>SWCLK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>0687397f-1016-4036-ac3c-4a09833e2c88</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>USB_D+</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>6648b050-3db9-4971-a883-986189e991fd</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>USB_D-</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>42ebaff9-3b34-4e87-84b1-4349c40bb033</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>5v</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>45167dd3-b3b6-4033-bbdd-e373c2afe4b8</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>cd22f1df-928c-457f-9f9c-fbb28e3038e1</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>RP2040</value>
+      <footprint>Library:RP2040-QFN-56</footprint>
+      <libsource lib="RP2040" part="RP2040" description=""/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>74587f4d-d103-4775-9936-faf46de12a9a</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AT25SF081B-SSHD-T</value>
+      <footprint>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</datasheet>
+      <libsource lib="Memory_Flash" part="W25Q32JVZP" description="32Mb Serial Flash Memory, Standard/Dual/Quad SPI, DFN-8"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="32Mb Serial Flash Memory, Standard/Dual/Quad SPI, DFN-8"/>
+      <property name="ki_keywords" value="flash memory SPI"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>11e77c8b-6400-4fc5-8c85-66eefd95fe4b</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>12MHZ</value>
+      <footprint>Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/Microcontroller/" tstamps="/914c070c-80a0-442d-a9ef-87013588aec4/"/>
+      <tstamps>6548426a-f895-4534-b322-81beb2a47c3c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Logic Level Shift"/>
+      <property name="Sheetfile" value="logic_level.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Logic Level Shift/" tstamps="/306a242a-bc63-4ebb-b02e-24e0b2bcb491/"/>
+      <tstamps>64423e7d-50c3-475f-a589-dd4da4c426ca</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>180K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Logic Level Shift"/>
+      <property name="Sheetfile" value="logic_level.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Logic Level Shift/" tstamps="/306a242a-bc63-4ebb-b02e-24e0b2bcb491/"/>
+      <tstamps>d2cb5e71-ac22-4b28-a6be-e7b4aff9b971</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LSF0108PWR</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <libsource lib="LSF0108" part="LSF0108PWR" description=""/>
+      <property name="Sheetname" value="Logic Level Shift"/>
+      <property name="Sheetfile" value="logic_level.kicad_sch"/>
+      <sheetpath names="/Logic Level Shift/" tstamps="/306a242a-bc63-4ebb-b02e-24e0b2bcb491/"/>
+      <tstamps>da4e22b1-7e22-486b-a299-1fd52faa7b57</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>DB9_Male</value>
+      <footprint>My Library:ASSMANN_A-DF_09_A_KG-T2S</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB9_Male" description="9-pin male D-SUB connector"/>
+      <property name="Sheetname" value="Ports"/>
+      <property name="Sheetfile" value="ports.kicad_sch"/>
+      <property name="ki_description" value="9-pin male D-SUB connector"/>
+      <property name="ki_keywords" value="connector male D-SUB"/>
+      <sheetpath names="/Ports/" tstamps="/220c1c16-08d3-4083-9bc2-be5d20d89579/"/>
+      <tstamps>ee2dd71a-5391-433e-b5ee-ee8f4bb07060</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB_A</value>
+      <footprint>Library:USB_A_China</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
+      <property name="Sheetname" value="Ports"/>
+      <property name="Sheetfile" value="ports.kicad_sch"/>
+      <property name="ki_description" value="USB Type A connector"/>
+      <property name="ki_keywords" value="connector USB"/>
+      <sheetpath names="/Ports/" tstamps="/220c1c16-08d3-4083-9bc2-be5d20d89579/"/>
+      <tstamps>2d036e41-51ba-41f3-8c17-de4eb44ccce3</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DPDT_x2</value>
+      <footprint>Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN</footprint>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="Sheetname" value="Ports"/>
+      <property name="Sheetfile" value="ports.kicad_sch"/>
+      <property name="ki_description" value="Switch, dual pole double throw, separate symbols"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw DPDT spdt ON-ON"/>
+      <sheetpath names="/Ports/" tstamps="/220c1c16-08d3-4083-9bc2-be5d20d89579/"/>
+      <tstamps>af1122c4-b3b4-4d89-ab93-04f8317c5d21 909d6a65-c135-4a03-b1b2-73589c8d5087</tstamps>
     </comp>
     <comp ref="D1">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c0622705-1710-4ec0-bb1b-67655faf1167</tstamps>
+      <property name="Sheetname" value="Indication"/>
+      <property name="Sheetfile" value="indication.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Indication/" tstamps="/7d421013-077a-412e-98c5-c4445e132e81/"/>
+      <tstamps>2ca138fd-cfd7-4d22-b309-df3f339afe82</tstamps>
     </comp>
     <comp ref="D2">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a5d559d8-2bc5-4e19-8e48-fcefd6d8f6c8</tstamps>
+      <property name="Sheetname" value="Indication"/>
+      <property name="Sheetfile" value="indication.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Indication/" tstamps="/7d421013-077a-412e-98c5-c4445e132e81/"/>
+      <tstamps>c87b2b3e-5387-435f-9cb7-2bd570a2b8e3</tstamps>
     </comp>
-    <comp ref="J1">
-      <value>DB9_Male</value>
-      <footprint>SmallyMouse QFN64-backups:ASSMANN_A-DF_09_A_KG-T2S</footprint>
-      <datasheet> ~</datasheet>
-      <libsource lib="Connector" part="DB9_Male" description="9-pin male D-SUB connector"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>866ce0a4-b20f-4287-8fc8-33b18f0eac1e</tstamps>
+    <comp ref="Q1">
+      <value>Q_NPN_BEC</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="Sheetname" value="Indication"/>
+      <property name="Sheetfile" value="indication.kicad_sch"/>
+      <property name="ki_description" value="NPN transistor, base/emitter/collector"/>
+      <property name="ki_keywords" value="transistor NPN"/>
+      <sheetpath names="/Indication/" tstamps="/7d421013-077a-412e-98c5-c4445e132e81/"/>
+      <tstamps>0845663d-fd01-424f-9307-8650785ddcbb</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Indication"/>
+      <property name="Sheetfile" value="indication.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Indication/" tstamps="/7d421013-077a-412e-98c5-c4445e132e81/"/>
+      <tstamps>63b10c56-dae9-4eef-a111-5e39a8ee1d24</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="Indication"/>
+      <property name="Sheetfile" value="indication.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Indication/" tstamps="/7d421013-077a-412e-98c5-c4445e132e81/"/>
+      <tstamps>6e456eb1-da55-41e2-9f3f-5dd823ba3ef4</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Part">TCJN106M006R0500E</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Part" value="TCJN106M006R0500E"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/689da89e-dfdd-4f8c-b9bf-6f48bed5f965/"/>
+      <tstamps>655c2148-1e95-4636-925c-ee29bb17af43</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Part">TCJN106M006R0500E</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Part" value="TCJN106M006R0500E"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/689da89e-dfdd-4f8c-b9bf-6f48bed5f965/"/>
+      <tstamps>399d1949-73fe-4317-ba3d-f707a093f78d</tstamps>
     </comp>
     <comp ref="J2">
       <value>Barrel_Jack_Switch</value>
@@ -190,247 +583,22 @@
       <property name="PACKAGE" value="None"/>
       <property name="PRICE" value="None"/>
       <property name="MP" value="DC-005"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>4c71d0be-78b7-4e1b-b288-51b84083d431</tstamps>
-    </comp>
-    <comp ref="J3">
-      <value>USB_A</value>
-      <footprint>Library:USB_A_China</footprint>
-      <datasheet> ~</datasheet>
-      <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>62e56247-2a1d-47b7-9542-f5fca72c365c</tstamps>
-    </comp>
-    <comp ref="JP1">
-      <value>USB_Boot</value>
-      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical</footprint>
-      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>2a8ace4b-1eee-49bc-b3f2-30654f167ea4</tstamps>
-    </comp>
-    <comp ref="Q1">
-      <value>Q_NPN_BEC</value>
-      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
-      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>bb162b96-fbc5-4aa7-9f23-bc3be2dff577</tstamps>
-    </comp>
-    <comp ref="R1">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>053edd54-4904-42bd-8bde-773af7b0640e</tstamps>
-    </comp>
-    <comp ref="R2">
-      <value>180K</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>62fb87fe-0600-43b4-b867-72467dd9d716</tstamps>
-    </comp>
-    <comp ref="R3">
-      <value>1K5</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d65dcb50-6ad3-4900-a6a0-191718055e98</tstamps>
-    </comp>
-    <comp ref="R4">
-      <value>22R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>acf1c9af-da85-425f-9b51-4feb05c2948d</tstamps>
-    </comp>
-    <comp ref="R5">
-      <value>22R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>12730367-f38e-45ad-b81f-3cbe1df33105</tstamps>
-    </comp>
-    <comp ref="R6">
-      <value>1K5</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>6eeb20fd-7e3b-4a33-ac1b-04ed9ac41e96</tstamps>
-    </comp>
-    <comp ref="R7">
-      <value>1K5</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>da685da9-416a-41a3-8432-9b3b2b0e7bc2</tstamps>
-    </comp>
-    <comp ref="R8">
-      <value>1K5</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>abf42e97-973e-4f75-ba96-867692187518</tstamps>
-    </comp>
-    <comp ref="R9">
-      <value>22R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>2331e0dd-f765-4cce-9ea2-b2eb3eba6244</tstamps>
-    </comp>
-    <comp ref="R10">
-      <value>22R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0951ebb1-12fa-4578-bdb2-689c976bfb00</tstamps>
-    </comp>
-    <comp ref="RN1">
-      <value>R_Pack04</value>
-      <footprint>Resistor_SMD:R_Array_Concave_4x0402</footprint>
-      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>36d58a72-06f7-415e-90a0-2f1b11322003</tstamps>
-    </comp>
-    <comp ref="SW1">
-      <value>SW_DPDT_x2</value>
-      <footprint>Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN</footprint>
-      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9fbc9809-19ab-428e-826c-d28454d3ba1e 7f3af039-cf1b-49a9-a340-abcb1259e283</tstamps>
-    </comp>
-    <comp ref="TP1">
-      <value>SWD</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3f172e2b-f616-4aba-9d44-1e21b7a09600</tstamps>
-    </comp>
-    <comp ref="TP2">
-      <value>SWCLK</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>65e658ef-9b44-496a-866d-81d3122fb03c</tstamps>
-    </comp>
-    <comp ref="TP3">
-      <value>USB_D+</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>fba5dfd9-0cda-4e50-97d0-54b95a75fcfb</tstamps>
-    </comp>
-    <comp ref="TP4">
-      <value>USB_D-</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7d109c0b-8b98-42d7-9a00-66f29a6c50c4</tstamps>
-    </comp>
-    <comp ref="TP5">
-      <value>5v</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>73b7b95c-c3d9-4f19-a093-140b70d284a2</tstamps>
-    </comp>
-    <comp ref="TP6">
-      <value>GND</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5281fe34-94b9-423e-8f52-ec9ecc501d11</tstamps>
-    </comp>
-    <comp ref="U1">
-      <value>LSF0108PWR</value>
-      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
-      <libsource lib="LSF0108" part="LSF0108PWR" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>23b936bb-feb2-4cb6-b64b-a3493331260f</tstamps>
-    </comp>
-    <comp ref="U2">
-      <value>RP2040</value>
-      <footprint>Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.3x4.3mm_ThermalVias</footprint>
-      <libsource lib="RP2040" part="RP2040" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f6832cc7-2a01-498f-b0bd-c34fbd7551b8</tstamps>
-    </comp>
-    <comp ref="U3">
-      <value>AT25SF081B-SSHD-T</value>
-      <footprint>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm</footprint>
-      <datasheet>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</datasheet>
-      <libsource lib="Memory_Flash" part="W25Q32JVZP" description="32Mb Serial Flash Memory, Standard/Dual/Quad SPI, DFN-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>15cfbf4f-b005-4451-a70b-02ee25c9d0a5</tstamps>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/689da89e-dfdd-4f8c-b9bf-6f48bed5f965/"/>
+      <tstamps>5d009ada-3245-4d41-8cce-46963eaa6713</tstamps>
     </comp>
     <comp ref="U4">
       <value>AMS1117-3.3</value>
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
       <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5d24716d-1b34-4c1a-91af-b9b663e61e08</tstamps>
-    </comp>
-    <comp ref="Y1">
-      <value>12MHZ</value>
-      <footprint>Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm</footprint>
-      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RP2040_Mouse.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>383fa2c2-9c1a-46dc-ac5d-8876f35644c4</tstamps>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <sheetpath names="/Power/" tstamps="/689da89e-dfdd-4f8c-b9bf-6f48bed5f965/"/>
+      <tstamps>51459a35-428a-41a2-8054-529ae0da7f17</tstamps>
     </comp>
   </components>
   <libparts>
@@ -575,22 +743,6 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="R">
-      <description>Resistor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="R_Pack04">
       <description>4 resistor network, parallel topology</description>
       <docs>~</docs>
@@ -614,6 +766,22 @@
         <pin num="6" name="R3.2" type="passive"/>
         <pin num="7" name="R2.2" type="passive"/>
         <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Jumper" part="Jumper_2_Open">
@@ -811,25 +979,25 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+      <uri>/usr/share/kicad-nightly/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+      <uri>/usr/share/kicad-nightly/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Jumper">
-      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+      <uri>/usr/share/kicad-nightly/symbols//Jumper.kicad_sym</uri>
     </library>
     <library logical="LSF0108">
-      <uri>/home/darren/OneDrive/Documents/GitHub/RP2040_Mouse/RP2040_Mouse_KiCAD/LSF0108PWR.kicad_sym</uri>
+      <uri>/home/darren/creations/eda/RP2040_Mouse_KiCAD/LSF0108PWR.kicad_sym</uri>
     </library>
     <library logical="Memory_Flash">
-      <uri>/usr/share/kicad/symbols//Memory_Flash.kicad_sym</uri>
+      <uri>/usr/share/kicad-nightly/symbols//Memory_Flash.kicad_sym</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+      <uri>/usr/share/kicad-nightly/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+      <uri>/usr/share/kicad-nightly/symbols//Switch.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -875,55 +1043,55 @@
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
-    <net code="4" name="/LSF0108_VREFB_EN">
+    <net code="4" name="/Indication/M_LED">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="5" name="/Indication/M_LED_L">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/Indication/P_LED_L">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/Logic Level Shift/LSF0108_VREFB_EN">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="19" pinfunction="VREF_B" pintype="input"/>
       <node ref="U1" pin="20" pinfunction="EN" pintype="bidirectional"/>
     </net>
-    <net code="5" name="/M_LED">
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
-    </net>
-    <net code="6" name="/M_LED_L">
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
-    </net>
-    <net code="7" name="/P_LED_L">
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
-    </net>
-    <net code="8" name="/SWCLK">
+    <net code="8" name="/Microcontroller/SWCLK">
       <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="24" pinfunction="SWCLK" pintype="output"/>
     </net>
-    <net code="9" name="/SWD">
+    <net code="9" name="/Microcontroller/SWD">
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="25" pinfunction="SWD" pintype="bidirectional"/>
     </net>
-    <net code="10" name="/USB_T_D+">
+    <net code="10" name="/Microcontroller/USB_T_D+">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U2" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
     </net>
-    <net code="11" name="/USB_T_D-">
+    <net code="11" name="/Microcontroller/USB_T_D-">
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U2" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
     </net>
-    <net code="12" name="/XIN">
+    <net code="12" name="/Microcontroller/XIN">
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="U2" pin="20" pinfunction="XIN" pintype="input"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="13" name="/XOUT">
+    <net code="13" name="/Microcontroller/XOUT">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U2" pin="21" pinfunction="XOUT" pintype="passive"/>
     </net>
-    <net code="14" name="/XOUT_LTD">
+    <net code="14" name="/Microcontroller/XOUT_LTD">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="15" name="/~{USB_BOOT}">
+    <net code="15" name="/Microcontroller/~{USB_BOOT}">
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
@@ -1013,21 +1181,21 @@
       <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
       <node ref="U2" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
     </net>
-    <net code="25" name="Net-(R9-Pad1)">
-      <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="U2" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
-    </net>
-    <net code="26" name="Net-(R9-Pad2)">
+    <net code="25" name="Net-(R9-Pad2)">
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(R10-Pad1)">
+    <net code="26" name="Net-(R10-Pad1)">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(R10-Pad2)">
+    <net code="27" name="Net-(U2-USB_DM)">
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="U2" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(U2-USB_DP)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
     </net>
     <net code="29" name="Pin1">
       <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
@@ -1105,10 +1273,10 @@
       <node ref="SW1" pin="4" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="B4" pintype="bidirectional"/>
     </net>
-    <net code="47" name="unconnected-(U1-Pad10)">
+    <net code="47" name="unconnected-(U1-A8-Pad10)">
       <node ref="U1" pin="10" pinfunction="A8" pintype="bidirectional"/>
     </net>
-    <net code="48" name="unconnected-(U1-Pad11)">
+    <net code="48" name="unconnected-(U1-B8-Pad11)">
       <node ref="U1" pin="11" pinfunction="B8" pintype="bidirectional"/>
     </net>
   </nets>

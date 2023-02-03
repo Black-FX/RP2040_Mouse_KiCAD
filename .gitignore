@@ -1,4 +1,5 @@
-gerbers/*
+gerbers*
+cad*
 *-backups
 *.ods
 *.xls
